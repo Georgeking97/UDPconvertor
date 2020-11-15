@@ -29,9 +29,9 @@ public class UDPEchoClient {
             String message = null;
             String response = null;
             do {
-                System.out.println("Enter message: ");
                 System.out.println("Please ensure your message follows the following format");
-                System.out.println("Amount you want to convert, the currency you currently have, the currency you want to have");
+                System.out.println("e.g: 10 Euro USD");
+                System.out.println("Enter message: ");
                 message = userEntry.readLine();
 
                 if (!message.equals("***CLOSE***")) {
